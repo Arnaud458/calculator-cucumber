@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: cucumbertests.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.669 s <<< FAILURE! - in cucumbertests.RunCucumberTest
+Adding two integer numbers  Time elapsed: 0.024 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "calculator.Operation.addMoreParams(java.util.List)" because "this.op" is null
+
+Adding two integer numbers INFIX  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "calculator.Operation.addMoreParams(java.util.List)" because "this.op" is null
+
