@@ -22,8 +22,8 @@ Feature: Integer Arithmetic Expressions
     And its POSTFIX notation is (<n1>, <n2>) <op>
 
     Examples:
-      |n1| op  |n2|result|
-      |4| + | 5|9        |
-      |8| - | 5|3        |
-      |7| * | 2|14       |
-      |6| / | 2|3        |
+      |n1| op  |n2|
+      |4| + | 5|
+      |8| - | 5|
+      |7| * | 2|
+      |6| / | 2|

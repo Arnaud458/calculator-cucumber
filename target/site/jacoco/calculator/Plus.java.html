@@ -10,8 +10,7 @@ import java.util.List;
  * @see Times
  * @see Divides
  */
-public final class Plus extends Operation
- {
+public final class Plus extends Operation {
 
   /**
    * Class constructor specifying a number of Expressions to add.
@@ -21,8 +20,8 @@ public final class Plus extends Operation
    * @see #Plus(List&lt;Expression&gt;,Notation)
    */
   public /*constructor*/ Plus(List&lt;Expression&gt; elist) throws IllegalConstruction {
-<span class="fc" id="L24">	this(elist, null);</span>
-<span class="fc" id="L25">  }</span>
+<span class="fc" id="L23">	this(elist, null);</span>
+<span class="fc" id="L24">  }</span>
 
   /**
    * Class constructor specifying a number of Expressions to add,
@@ -35,10 +34,10 @@ public final class Plus extends Operation
    * @see Operation#Operation(List&lt;Expression&gt;,Notation)
    */
   public Plus(List&lt;Expression&gt; elist, Notation n) throws IllegalConstruction {
-<span class="fc" id="L38">  	super(elist,n);</span>
-<span class="fc" id="L39">  	symbol = &quot;+&quot;;</span>
-<span class="fc" id="L40">  	neutral = 0;</span>
-<span class="fc" id="L41">  }</span>
+<span class="fc" id="L37">  	super(elist,n);</span>
+<span class="fc" id="L38">  	symbol = &quot;+&quot;;</span>
+<span class="fc" id="L39">  	neutral = 0;</span>
+<span class="fc" id="L40">  }</span>
 
   /**
    * The actual computation of the (binary) arithmetic addition of two integers
@@ -47,7 +46,7 @@ public final class Plus extends Operation
    * @return The integer that is the result of the addition
    */
   public int op(int l, int r) {
-<span class="fc" id="L50">  	return (l+r);</span>
+<span class="fc" id="L49">  	return (l+r);</span>
   }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

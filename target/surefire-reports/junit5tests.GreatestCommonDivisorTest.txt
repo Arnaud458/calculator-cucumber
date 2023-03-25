@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: cucumbertests.RunCucumberTest
+Test set: junit5tests.GreatestCommonDivisorTest
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.756 s - in cucumbertests.RunCucumberTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in junit5tests.GreatestCommonDivisorTest
