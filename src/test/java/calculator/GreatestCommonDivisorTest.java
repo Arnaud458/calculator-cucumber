@@ -1,4 +1,4 @@
-package junit5tests;
+package calculator;
 
 import calculator.*;
 import org.junit.jupiter.api.BeforeEach;
